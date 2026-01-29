@@ -293,7 +293,7 @@
          style="opacity:0.01;fill:#1e2030;fill-opacity:1;stroke-width:1.0198"
          transform="rotate(90)" /><rect
          transform="rotate(90)"
-         style="opacity:1;fill:#1e2030;fill-opacity:1;stroke-width:1.0198"
+         style="opacity:0.7;fill:#1e2030;fill-opacity:1;stroke-width:1.0198"
          id="rect980"
          width="26"
          height="11.999996"
@@ -305,7 +305,7 @@
          height="12"
          width="1"
          id="rect982"
-         style="opacity:1;fill:#1e2030;fill-opacity:1;stroke-width:0.999997"
+         style="opacity:0.7;fill:#1e2030;fill-opacity:1;stroke-width:0.999997"
          transform="rotate(90)"
          class="ColorScheme-Background" /></g><g
        id="decoration-topright"
@@ -344,7 +344,7 @@
            style="opacity:0.01;fill:#1e2030;fill-opacity:1;stroke-width:1.1142"
            transform="rotate(90)" /><rect
            transform="rotate(90)"
-           style="opacity:1;fill:#1e2030;fill-opacity:1;stroke-width:1.11804"
+           style="opacity:0.7;fill:#1e2030;fill-opacity:1;stroke-width:1.11804"
            id="rect984"
            width="7.500041"
            height="31.999975"
@@ -356,7 +356,7 @@
            height="32.000008"
            width="1.5000083"
            id="rect1043"
-           style="opacity:1;fill:#1e2030;fill-opacity:1;stroke-width:0.500003"
+           style="opacity:0.7;fill:#1e2030;fill-opacity:1;stroke-width:0.500003"
            transform="rotate(90)"
            class="ColorScheme-Background" /></g></g><g
        transform="matrix(-1,0,0,1,674,210.25505)"
@@ -371,7 +371,7 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="csccccccc" /><path
          id="path986"
-         style="opacity:1;fill:#1e2030;fill-opacity:1;stroke-width:0.999996"
+         style="opacity:0.7;fill:#1e2030;fill-opacity:1;stroke-width:0.999996"
          d="m 564,115 v 5 h 14 c 3.5904,0 4,-3 4,-5 h -4 z"
          sodipodi:nodetypes="ccsccc"
          class="ColorScheme-Background" /><path
@@ -396,7 +396,7 @@
          style="opacity:0.01;fill:#1e2030;fill-opacity:1"
          transform="rotate(90)" /><rect
          transform="rotate(90)"
-         style="opacity:1;fill:#1e2030;fill-opacity:1;stroke-width:1.02899"
+         style="opacity:0.7;fill:#1e2030;fill-opacity:1;stroke-width:1.02899"
          id="rect989"
          width="5.0000024"
          height="18.000122"
@@ -409,7 +409,7 @@
          height="1"
          width="5.0000167"
          id="rect1006"
-         style="opacity:1;fill:#1e2030;fill-opacity:1;stroke-width:0.242535"
+         style="opacity:0.7;fill:#1e2030;fill-opacity:1;stroke-width:0.242535"
          transform="rotate(90)"
          class="ColorScheme-Background" /></g><g
        transform="translate(-12,34.255048)"
@@ -424,7 +424,7 @@
          d="M 285.00012,291.00002 C 285,294 283.54641,296.00006 280.99996,296.00005 L 269,296.00002 267,296 v 66.99998 l 2.00003,3e-5 70,-2e-5 L 339,291 Z"
          style="opacity:0.5;fill:url(#radialGradient1050-7-5-2-3-9-3);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.28571px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" /><path
          d="m 267,291 v 5 h 14 c 2.53045,0 4,-1.7833 4,-5 h -4.23529 z"
-         style="opacity:1;fill:#1e2030;fill-opacity:1;stroke-width:1.02899"
+         style="opacity:0.7;fill:#1e2030;fill-opacity:1;stroke-width:1.02899"
          id="path991"
          sodipodi:nodetypes="ccsccc"
          class="ColorScheme-Background" /><path
@@ -469,11 +469,11 @@
          height="18"
          width="5.0000024"
          id="rect995"
-         style="opacity:1;fill:#1e2030;fill-opacity:1;stroke-width:1.02899"
+         style="opacity:0.7;fill:#1e2030;fill-opacity:1;stroke-width:1.02899"
          transform="rotate(90)"
          class="ColorScheme-Background" /><rect
          transform="rotate(90)"
-         style="opacity:1;fill:#1e2030;fill-opacity:1;stroke-width:0.242536"
+         style="opacity:0.7;fill:#1e2030;fill-opacity:1;stroke-width:0.242536"
          id="rect1008"
          width="5.0000057"
          height="1"
@@ -491,7 +491,7 @@
          transform="rotate(90)"
          inkscape:label="rect985" /><rect
          transform="rotate(90)"
-         style="opacity:1;fill:#1e2030;fill-opacity:1;stroke-width:0.999998"
+         style="opacity:0.7;fill:#1e2030;fill-opacity:1;stroke-width:0.999998"
          id="rect997"
          width="86.000008"
          height="145"

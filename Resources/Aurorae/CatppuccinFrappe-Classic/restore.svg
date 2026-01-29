@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Catppuccin Frappe Restore Button - 50x11 rounded rectangle -->
-  <rect x="1" y="44.5" width="50" height="11" rx="2" fill="#a6d189"/>
-  <rect x="51" y="44.5" width="50" height="11" rx="2" fill="#a6d189" fill-opacity="0.85"/>
-  <rect x="101" y="44.5" width="50" height="11" rx="2" fill="#a6d189" fill-opacity="0.6"/>
-  <rect x="151" y="44.5" width="50" height="11" rx="2" fill="#51576d"/>
-  <rect x="201" y="44.5" width="50" height="11" rx="2" fill="#737994"/>
-  <rect x="251" y="44.5" width="50" height="11" rx="2" fill="#51576d" fill-opacity="0.6"/>
+<svg width="330" height="100" viewBox="0 0 330 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Catppuccin Frappe Restore Button - 55x14 rounded rectangle -->
+  <!-- Active state -->
+  <g id="active-center">
+    <rect x="0" y="43.0" width="55" height="14" rx="2" fill="#a6d189"/>
+  </g>
+  <!-- Hover state -->
+  <g id="hover-center">
+    <rect x="55" y="43.0" width="55" height="14" rx="2" fill="#a6d189" fill-opacity="0.85"/>
+  </g>
+  <!-- Pressed state -->
+  <g id="pressed-center">
+    <rect x="110" y="43.0" width="55" height="14" rx="2" fill="#a6d189" fill-opacity="0.6"/>
+  </g>
+  <!-- Inactive state -->
+  <g id="inactive-center">
+    <rect x="165" y="43.0" width="55" height="14" rx="2" fill="#45475a"/>
+  </g>
+  <!-- Hover inactive state -->
+  <g id="hover-inactive-center">
+    <rect x="220" y="43.0" width="55" height="14" rx="2" fill="#6c7086"/>
+  </g>
+  <!-- Deactivated state -->
+  <g id="deactivated-center">
+    <rect x="275" y="43.0" width="55" height="14" rx="2" fill="#45475a" fill-opacity="0.6"/>
+  </g>
 </svg>

@@ -1,0 +1,13 @@
+[Transparent all the things]
+Description=Transparent all the things
+clientmachine=localhost
+clientmachinematch=0
+opacityactive=90
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+types=445
+wmclass=audacious
+wmclasscomplete=false
+wmclassmatch=0
+
