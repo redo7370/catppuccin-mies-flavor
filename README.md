@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://www.kde.org/">KDE</a>
+	Catppuccin Mies Flavors for <a href="https://www.kde.org/">KDE</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -13,7 +13,7 @@
 
 ## Python Virtual Environment (for test-theme.py)
 
-Um das Python-Preview-Tool zu nutzen:
+The python preview is not a 1:1 reconstruction of the KDE Theme but rather a Mock which can be utilized as orientation for the actual implementation.
 
 ```sh
 python3 -m venv venv
@@ -29,7 +29,7 @@ PyQt6
 ## Installation
 
 ### For KDE Plasma Desktop:
-1. `git clone --depth=1 https://github.com/catppuccin/kde catppuccin-kde && cd catppuccin-kde`
+1. `git clone https://github.com/catppuccin/kde catppuccin-kde && cd catppuccin-kde`
 2. Run the install script using `./install.sh` and follow the instructions.
 
 ### For Krita:
@@ -43,6 +43,10 @@ PyQt6
 ## Notes
 1. If you are using KDE 5.27 or below, you might want to run `git checkout v0.2.5`  before running the install script to avoid running into compatibility issues. Alternatively, the release binaries are available [here](https://github.com/catppuccin/kde/releases/tag/v0.2.5). (Does not support the mies flavor)
 2. If you encounter an error similar to 'connection refused' while running the installation script, it may be due to store.kde.org being down or issues with your internet connection.
+3. This theme is developed solely by myself. I will listen to community advice, but my primary long term target is to create a KDE Theme I like by targetting what I see as Catppuccins weaknesses and integrating other Themes strengths.
+4. Since I'm developing mainly for my own benefit and to my own liking, there is no Update Schedule. Updates will come randomly and will most likely require you to newly clone/pull this repo from Github and install the theme again - Please note that for reinstallation you might have to remove the old theme files first, since there're sometimes issues with overwriting old files by simply running the install script.
+5. Bugs or Feature Requests will only be accepted via Github Issues.
+6. Shoutout to all devs of the original Catppuccin Themes and to [Juxtopposed](https://github.com/juxtopposed) whom I first saw using rectangular buttons for a more sleek design.
 
 ## Opacity Control
 If you wish to have **transparent windows**, you must configure this yourself, as **KWin** controls window opacity. You can apply the basic **KWin ruleset** provided in this repository by going to **System Settings → Window Management → Window Rules** and clicking on **Import**, then importing the provided files. Please note that this is only a basic settings set and not an "out of the box" set of rules.
