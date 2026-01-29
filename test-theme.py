@@ -164,7 +164,7 @@ class CustomTitleBar(QWidget):
         btn_layout.addWidget(self.btn_close)
         layout.addWidget(btn_box)
         
-        self.setStyleSheet(f"background-color: {p['mantle']};")
+        self.setStyleSheet(f"background-color: {p['mantle']}80;")
         self.setFixedHeight(40)
     
     def toggle_max(self):
@@ -178,7 +178,7 @@ class CustomTitleBar(QWidget):
         p = PALETTES[flavor]
         self.title.setText(f"  Catppuccin {flavor}")
         self.title.setStyleSheet(f"color: {p['text']}; font-weight: bold; font-size: 13px;")
-        self.setStyleSheet(f"background-color: {p['mantle']};")
+        self.setStyleSheet(f"background-color: {p['mantle']}80;")
         
         self.btn_min.set_color(p['peach'], p['surface0'] + "80")
         self.btn_max.set_color(p['green'], p['surface0'] + "80")
@@ -334,11 +334,11 @@ class ThemeWindow(QWidget):
         p = PALETTES[self.flavor]
         self.title_bar.update_flavor(self.flavor)
         
-        # Container with border
+        # Container with border (50% opacity)
         self.container.setStyleSheet(f"""
             QFrame {{
-                background-color: {p['base']};
-                border: 2px solid {p['surface1']};
+                background-color: {p['base']}80;
+                border: 2px solid {p['surface1']}80;
                 border-radius: 12px;
             }}
         """)
