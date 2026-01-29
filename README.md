@@ -11,30 +11,6 @@
     <a href="https://github.com/catppuccin/kde/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/kde?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-
-<p align="center">
-  <img src="./Assets/res.webp"/>
-</p>
-
-## Previews
-
-<details>
-<summary>🌻 Latte</summary>
-<img src="./Resources/LookAndFeel/Catppuccin-Latte-Global/contents/previews/fullscreenpreview.jpg"/>
-</details>
-<details>
-<summary>🪴 Frappé</summary>
-<img src="./Resources/LookAndFeel/Catppuccin-Frappe-Global/contents/previews/fullscreenpreview.jpg"/>
-</details>
-<details>
-<summary>🌺 Macchiato</summary>
-<img src="./Resources/LookAndFeel/Catppuccin-Macchiato-Global/contents/previews/fullscreenpreview.jpg"/>
-</details>
-<details>
-<summary>🌿 Mocha</summary>
-<img src="./Resources/LookAndFeel/Catppuccin-Mocha-Global/contents/previews/fullscreenpreview.jpg"/>
-</details>
-
 ## Installation
 
 ### For KDE Plasma Desktop:
