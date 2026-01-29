@@ -11,14 +11,14 @@ BorderLeft=0
 BorderRight=0
 BorderBottom=0
 
-ButtonHeight=37
-ButtonWidth=37
+ButtonHeight=11
+ButtonWidth=50
 
 ButtonMarginTop=0
 ButtonMarginLeft=0
 ButtonMarginRight=0
 
-ButtonSpacing=0
+ButtonSpacing=3
 ExplicitButtonSpacer=0
 
 PaddingBottom=65

@@ -1,14 +1,8 @@
 [General]
-ActiveTextColor=76, 79, 105
-InactiveTextColor=92, 95, 119
-LeftButtons=XIA
-RightButtons=
-Shadow=false
-TextShadowOffsetX=1
-TextShadowOffsetY=1
+ActiveTextColor=#4c4f69
+InactiveTextColor=#5c5f77
 TitleAlignment=Center
 TitleVerticalAlignment=Center
-UseTextShadow=false
 Animation=0
 
 [Layout]
@@ -16,27 +10,34 @@ BorderTop=0
 BorderLeft=0
 BorderRight=0
 BorderBottom=0
-ButtonHeight=18
-ButtonWidth=18
-ButtonMarginTop=2
-ButtonMarginLeft=4
-ButtonMarginRight=4
-ButtonSpacing=12
-ExplicitButtonSpacer=10
-PaddingBottom=67
-PaddingLeft=54
-PaddingRight=54
-PaddingTop=44
-TitleBorderLeft=1
-TitleBorderRight=1
-TitleEdgeBottom=8
-TitleEdgeBottomMaximized=8
-TitleEdgeTopMaximized=4
-TitleEdgeLeftMaximized=8
-TitleEdgeRightMaximized=8
-TitleEdgeLeft=8
-TitleEdgeRight=8
-TitleEdgeTop=8
-TitleHeight=16
+
+ButtonHeight=11
+ButtonWidth=50
+
+ButtonMarginTop=0
+ButtonMarginLeft=0
+ButtonMarginRight=0
+
+ButtonSpacing=3
+ExplicitButtonSpacer=0
+
+PaddingBottom=65
+PaddingLeft=53
+PaddingRight=53
+PaddingTop=43
+
+TitleBorderLeft=0
+TitleBorderRight=0
+
+TitleEdgeBottomMaximized=0
+TitleEdgeTopMaximized=0
+TitleEdgeLeftMaximized=0
+TitleEdgeRightMaximized=0
+
+TitleEdgeBottom=0
+TitleEdgeLeft=0
+TitleEdgeRight=0
+TitleEdgeTop=0
+TitleHeight=26
 
 
