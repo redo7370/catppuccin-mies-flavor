@@ -11,6 +11,8 @@
     <a href="https://github.com/redo7370/catppuccin-mies-flavor/contributors"><img src="https://img.shields.io/github/contributors/redo7370/catppuccin-mies-flavor?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
+# Important
+The Current Commit on main Contains an unfinished state of development which wasn't foreseen. I checked my history and no merges whcih could have caused this were made. I probably have made a mistake while resolving merge conflicts. Do not use the commits which still contain this important section for theme installation!
 
 ## Python Virtual Environment (for test-theme.py)
 
