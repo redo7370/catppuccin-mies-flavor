@@ -5,7 +5,7 @@ ColorScheme=Catppuccin--flavour--accentName
 cursorTheme=Catppuccin---flavour---accentName-Cursors
 
 [kwinrc][org.kde.kdecoration2]
-ButtonsOnLeft=
+ButtonsOnLeft=--buttonsleft
 ButtonsOnRight=IAX
 library=org.kde.kwin.aurorae
 theme=--aurorae

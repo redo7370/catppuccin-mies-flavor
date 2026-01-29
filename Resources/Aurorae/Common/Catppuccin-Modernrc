@@ -2,8 +2,10 @@
 ActiveTextColor=#cdd6f4
 InactiveTextColor=#a6adc8
 TitleAlignment=Center
-TitleVerticalAlignment=Center
+TitleVerticalAlignment=Top
 Animation=0
+LeftButtons=SFB
+RightButtons=IAX
 
 [Layout]
 BorderTop=0
@@ -11,7 +13,7 @@ BorderLeft=0
 BorderRight=0
 BorderBottom=0
 
-ButtonHeight=14
+ButtonHeight=10
 ButtonWidth=55
 
 ButtonMarginTop=3
@@ -35,7 +37,7 @@ TitleEdgeLeftMaximized=0
 TitleEdgeRightMaximized=0
 
 TitleEdgeBottom=0
-TitleEdgeLeft=0
+TitleEdgeLeft=6
 TitleEdgeRight=6
 TitleEdgeTop=6
-TitleHeight=26
+TitleHeight=22

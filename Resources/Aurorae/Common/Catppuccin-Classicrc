@@ -11,7 +11,7 @@ BorderLeft=0
 BorderRight=0
 BorderBottom=0
 
-ButtonHeight=14
+ButtonHeight=10
 ButtonWidth=55
 
 ButtonMarginTop=3
@@ -38,6 +38,6 @@ TitleEdgeBottom=0
 TitleEdgeLeft=0
 TitleEdgeRight=6
 TitleEdgeTop=6
-TitleHeight=26
+TitleHeight=22
 
 

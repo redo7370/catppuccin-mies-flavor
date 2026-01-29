@@ -237,6 +237,7 @@ case "$WINDECSTYLE" in
     1)
         WINDECSTYLENAME=Modern
         WINDECSTYLECODE=__aurorae__svg__Catppuccin"$FLAVOURNAME"-Modern
+        BUTTONSLEFT=SFB
 
         case "$FLAVOUR" in
             1) StoreAuroraeNo="2135229" ;;
@@ -258,6 +259,7 @@ EOF
     2)
         WINDECSTYLENAME=Classic
         WINDECSTYLECODE=__aurorae__svg__Catppuccin"$FLAVOURNAME"-Classic
+        BUTTONSLEFT=
 
         case "$FLAVOUR" in
             1) StoreAuroraeNo="2135228" ;;
@@ -336,7 +338,7 @@ InstallGlobalTheme() {
 	sed "s/--accentName/$ACCENTNAME/g; s/--flavour/$FLAVOURNAME/g; s/--StoreAuroraeNo/$StoreAuroraeNo/g" ./Resources/LookAndFeel/metadata.json > ./dist/Catppuccin-"$FLAVOURNAME"-"$ACCENTNAME"/metadata.json
 
     # Modify 'defaults' to set the correct Aurorae Theme
-    sed "s/--accentName/$ACCENTNAME/g; s/--flavour/$FLAVOURNAME/g; s/--aurorae/$WINDECSTYLECODE/g" ./Resources/LookAndFeel/defaults > ./dist/Catppuccin-"$FLAVOURNAME"-"$ACCENTNAME"/contents/defaults
+    sed "s/--accentName/$ACCENTNAME/g; s/--flavour/$FLAVOURNAME/g; s/--aurorae/$WINDECSTYLECODE/g; s/--buttonsleft/$BUTTONSLEFT/g" ./Resources/LookAndFeel/defaults > ./dist/Catppuccin-"$FLAVOURNAME"-"$ACCENTNAME"/contents/defaults
 
 
 
@@ -450,6 +452,19 @@ if [ "$CONFIRMATION" = "Y" ] || [ "$CONFIRMATION" = "y" ]; then
 
     if [ "$CONFIRMATION" = "Y" ] || [ "$CONFIRMATION" = "y" ]; then
         lookandfeeltool -a "$GLOBALTHEMENAME"
+        
+        # Configure window button layout directly in kwinrc
+        # (Global Theme defaults don't override existing kwinrc settings)
+        kwriteconfig6 --file kwinrc --group org.kde.kdecoration2 --key ButtonsOnLeft "$BUTTONSLEFT"
+        kwriteconfig6 --file kwinrc --group org.kde.kdecoration2 --key ButtonsOnRight "IAX"
+        
+        # Reconfigure KWin to apply button changes
+        if command -v qdbus6 >/dev/null 2>&1; then
+            qdbus6 org.kde.KWin /KWin reconfigure 2>/dev/null || true
+        elif command -v qdbus >/dev/null 2>&1; then
+            qdbus org.kde.KWin /KWin reconfigure 2>/dev/null || true
+        fi
+        
         clear
         # Some legacy apps still look in ~/.icons
         cat <<EOF

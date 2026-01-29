@@ -48,7 +48,6 @@ PyQt6
 2. If you encounter an error similar to 'connection refused' while running the installation script, it may be due to store.kde.org being down or issues with your internet connection.
 
 ## Opacity Control
-
 If you wish to have **transparent windows**, you must configure this yourself, as **KWin** controls window opacity. You can apply the basic **KWin ruleset** provided in this repository by going to **System Settings → Window Management → Window Rules** and clicking on **Import**, then importing the provided files. Please note that this is only a basic settings set and not an "out of the box" set of rules.
 
 This ruleset by default makes all windows slightly transparent. If you open an app or game that has this opacity applied, you'll have to **exclude** it manually. This is possible by opening the window, pressing <kbd>Alt</kbd>+<kbd>F3</kbd>. A small drop-down menu should open. Click on **More Actions → Configure Special Application Settings**. A separate window will open which targets only the window you had active when pressing <kbd>Alt</kbd>+<kbd>F3</kbd>. Here you can click on **Add Property** and choose **Active Opacity** and **Inactive Opacity** to adjust them to your liking. Set both to **100%** if you want them to be solid.
