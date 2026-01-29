@@ -6,10 +6,26 @@
 </h3>
 
 <p align="center">
-    <a href="https://github.com/catppuccin/kde/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/kde?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/kde/issues"><img src="https://img.shields.io/github/issues/catppuccin/kde?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/kde/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/kde?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+    <a href="https://github.com/redo7370/catppuccin-mies-flavor/stargazers"><img src="https://img.shields.io/github/stars/redo7370/catppuccin-mies-flavor?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+    <a href="https://github.com/redo7370/catppuccin-mies-flavor/issues"><img src="https://img.shields.io/github/issues/redo7370/catppuccin-mies-flavor?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+    <a href="https://github.com/redo7370/catppuccin-mies-flavor/contributors"><img src="https://img.shields.io/github/contributors/redo7370/catppuccin-mies-flavor?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
+
+
+## Python Virtual Environment (for test-theme.py)
+
+Um das Python-Preview-Tool zu nutzen:
+
+```sh
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+**requirements.txt**
+```
+PyQt6
+```
 
 ## Installation
 
@@ -30,8 +46,12 @@
 2. If you encounter an error similar to 'connection refused' while running the installation script, it may be due to store.kde.org being down or issues with your internet connection.
 
 
-## 💝 Current Maintainer
+
+## 💝 Current Upstream Maintainer
 - [Sourcastic](https://github.com/Sourcastic)
+
+## 💝 Current Fork Maintainer
+- [redo7370](https://github.com/redo7370)
 
 ## 💖 Past Maintainers
 - [Prayag2](https://github.com/Prayag2)
