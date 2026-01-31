@@ -1,0 +1,10 @@
+[Force window decorations]
+Description=Force window decorations on all windows
+clientmachine=localhost
+clientmachinematch=0
+noborder=false
+noborderrule=2
+types=1
+wmclass=.*
+wmclasscomplete=false
+wmclassmatch=3

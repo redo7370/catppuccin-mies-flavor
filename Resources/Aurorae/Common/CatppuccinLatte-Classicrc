@@ -30,14 +30,14 @@ TitleBorderLeft=0
 TitleBorderRight=0
 
 TitleEdgeBottomMaximized=0
-TitleEdgeTopMaximized=0
+TitleEdgeTopMaximized=6
 TitleEdgeLeftMaximized=0
-TitleEdgeRightMaximized=0
+TitleEdgeRightMaximized=6
 
 TitleEdgeBottom=0
 TitleEdgeLeft=0
-TitleEdgeRight=0
-TitleEdgeTop=0
-TitleHeight=26
+TitleEdgeRight=6
+TitleEdgeTop=6
+TitleHeight=22
 
 

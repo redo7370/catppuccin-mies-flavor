@@ -32,9 +32,9 @@ TitleBorderLeft=0
 TitleBorderRight=0
 
 TitleEdgeBottomMaximized=0
-TitleEdgeTopMaximized=0
-TitleEdgeLeftMaximized=0
-TitleEdgeRightMaximized=0
+TitleEdgeTopMaximized=6
+TitleEdgeLeftMaximized=6
+TitleEdgeRightMaximized=6
 
 TitleEdgeBottom=0
 TitleEdgeLeft=6
